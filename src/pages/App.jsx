@@ -1,7 +1,7 @@
 import { Container, Grid, Typography } from '@mui/material'
-import { NewsProvider } from './context/NewsProvider'
-import NewsList from './components/NewsList'
-import Form from './components/Form'
+import { NewsProvider } from '../context/NewsProvider'
+import NewsList from '../components/NewsList'
+import Form from '../components/Form'
 
 const App = () => {
   return (
